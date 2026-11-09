@@ -72,4 +72,6 @@ x=10 # binary 1010
 y=8  # binary 1000
 print(bin(x))
 print(bin(y))
-print("Result",bin(x & y)) # bitwise and , dono bits 1 hoga to 1
+print("Result",bin(x & y), x&y) # bitwise and , dono bits 1 hoga to 1
+print("Result",bin(x | y), x|y) # bitwise or , dono bits me se koi bhi 1 hoga to 1
+print("Result",bin(x ^ y), x^y) # bitwise xor , dono bits me se koi bhi 1 hoga to 1, dono bits same hoga to 0
