@@ -1,0 +1,5 @@
+print("welcom to python")
+print("this is a demo file")
+print(8+9,"hello world")
+print("4+7")
+print(18>8)
