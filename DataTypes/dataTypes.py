@@ -46,3 +46,8 @@ f={
 f["name"] = "Jane" # changeable
 print(['name'])
 print(f,"is of type",type(f))
+
+# set data type -> set is a collection of items which is unordered and unindexed. No duplicate members. in python set is written with curly brackets. 
+g={1,2,3.3,"hello",True,False}
+print(g,"is of type",type(g))
+
